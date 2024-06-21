@@ -1,0 +1,11 @@
+[package]
+name = "forward-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version="1.38.0", features = ["full"] }
+socket2 = { version="0.5.7" }
+tokio-rustls = "0.26.0"
+rustls-pemfile = "2.1.2"
+
